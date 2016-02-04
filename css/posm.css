@@ -1,22 +1,56 @@
 .mdl-grid {
   max-width: 1000px;
 }
+
 .mdl-card__media {
   margin: 0;
 }
+
 .mdl-card__media > img {
   max-width: 100%;
 }
+
 .mdl-mini-footer {
   background: #efefef;
   color: #000000;
   height: 50px;
 }
+
 .mdl-layout__header {
   background: #efefef;
   color: #000;
 }
+
+.posm-container {
+  max-width: 1000px;
+  width: calc(100% - 16px);
+  margin: 0 auto;
+}
+
+.posm-container h3 {
+  margin-top: 48px;
+}
+
+/* POSM stuff */
 .posm_small {
   height: 30px;
   margin-right: 15px;
+}
+
+.subpageheader {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    color: #000;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500
 }

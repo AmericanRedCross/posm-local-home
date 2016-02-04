@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+  <title>POSM</title>
+
+  <link rel="stylesheet" href="css/material.min.css">
+  <script src="js/material.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="css/posm.css">
+</head>
+<body>
+  <div class="mdl-layout mdl-js-layout">
+    <header class="mdl-layout__header mdl-layout__header--scroll">
+      <div class="mdl-layout__header-row">
+        <img src="images/posm_head.png" class="posm_small"/>
+        <span class="mdl-layout__title">Portable OpenStreetMap</span>
+      </div>
+    </header>
+    <main class="mdl-layout__content">
+      <div class="mdl-grid">
+        <div class="subpageheader mdl-cell--12-col">About</div>
+
+        <p>Portable OpenStreetMap (POSM) is a project by the American Red Cross</p>
+
+        <p>POSM's goal is to integrate best-of-breed tools from a variety of sources and developers on a single device that can be deployed to the field alongside Red Cross staff and volunteers and facilitate mapping efforts, particularly when internet access is absent.</p>
+
+        <div class="subpageheader mdl-cell--12-col">Glossary</div>
+
+        <p>This is intended to provide a working definition of various terms used throughout POSM.</p>
+
+        <ul>
+          <li>AOI - Area of Interest.</li>
+          <li>Atlas (Field Papers) - Identified by a Field Papers URL and represented as a QR code.</li>
+          <li>Deployment - The sending of staff to a deployment AOI. Alternately, the provisioning of associated artifacts necessary to facilitate enumeration to a server accompanying staff into the field.</li>
+          <li>Deployment AOI - A region that staff are deployed to. Typically corresponds to imagery / logistical requests.</li>
+          <li>Digitization - Tracing / transcribing features present on a page into a GIS system (e.g. JOSM or iD).</li>
+          <li>Extent - Bounding box coordinates describing an AOI.</li>
+          <li>Field Enumeration - Collection of information about geographic features in the field.</li>
+          <li>Form (OpenMapKit) - Set of questions used during a field survey. Generally unique to a deployment AOI.</li>
+          <li>Page (Field Papers) - Single sheet of paper. Part of an atlas; identified using grid coordinates (e.g. A1, F6, ...). Corresponds to an individual survey area. Identified by a Field Papers URL and represented as a QR code.</li>
+          <li>Provision - Artifacts associated with a task area.</li>
+          <li>Snapshot (Field Papers) - Identified by a Field Papers URL.</li>
+          <li>Survey (OpenMapKit) - ???</li>
+          <li>Survey Area - A focused area within a task area. Should be sized appropriately that multiple survey areas can be covered by the same time in a single day. Corresponds to a single page within an atlas.</li>
+          <li>Task Area - A focused area within the deployment AOI. Corresponds to a set of pages within an atlas.</li>
+          <li>Response (OpenMapKit) - Collected metadata for an individual feature within a survey area.</li>
+        </ul>
+
+      </div>
+    </main>
+    <footer class="mdl-mini-footer mdl-layout__footer--scroll">
+      <div class="mdl-mini-footer__left-section">
+        <ul class="mdl-mini-footer__link-list">
+          <li><a href="http://github.com/AmericanRedCross/posm">Code</a></li>
+          <li><a href="http://github.com/AmericanRedCross/posm/blob/master/LICENSE.md">License</a></li>
+          <!-- <li><a href="#">User Agreement</a></li> -->
+        </ul>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
