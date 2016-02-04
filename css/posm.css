@@ -37,6 +37,10 @@
   margin-right: 15px;
 }
 
+.posm_workflow {
+  max-width: 100%;
+}
+
 .subpageheader {
     margin-top: 60px;
     margin-bottom: 40px;
