@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+    <title>POSM</title>
+
+    <link rel="stylesheet" href="css/material.min.css">
+    <script src="js/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <style>
+      .mdl-grid {
+        max-width: 1000px;
+      }
+      .mdl-card__media {
+        margin: 0;
+      }
+      .mdl-card__media > img {
+        max-width: 100%;
+      }
+      .mdl-mini-footer {
+        background: #efefef;
+        color: #000000;
+        height: 50px;
+      }
+      .mdl-layout__header {
+        background: #efefef;
+        color: #000;
+      }
+      .posm_small {
+        height: 30px;
+        margin-right: 15px;
+      }
+    </style>
+  </head>
+  <body>
+  <div class="mdl-layout mdl-js-layout">
+    <header class="mdl-layout__header mdl-layout__header--scroll">
+      <div class="mdl-layout__header-row">
+        <img src="images/posm_head.png" class="posm_small"/>
+        <span class="mdl-layout__title">Portable OpenStreetMap</span>
+      </div>
+    </header>
+    <main class="mdl-layout__content">
+      <!-- POSM Hero -->
+      <div class="mdl-grid">
+        <div class="mdl-layout-spacer"></div>
+        <div class="mdl-card mdl-cell mdl-cell--3-col mdl-shadow--2dp posm-card">
+            <figure class="mdl-card__media">
+                <img src="images/posm.png" alt="" />
+            </figure>
+            <!-- <div class="mdl-card__title">
+                <h1 class="mdl-card__title-text">POSM Admin</h1>
+            </div> -->
+            <!-- <div class="mdl-card__supporting-text">
+                <p>POSM configuration</p>
+            </div> -->
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-js-button" href="#">POSM Admin</a>
+            </div>
+        </div>
+        <div class="mdl-layout-spacer"></div>
+      </div>
+          <div class="mdl-grid">
+              <div class="mdl-card mdl-cell mdl-cell--3-col mdl-shadow--2dp omk-card">
+                  <figure class="mdl-card__media">
+                      <img src="images/omk.png" alt="" />
+                  </figure>
+                  <!-- <div class="mdl-card__title">
+                      <h1 class="mdl-card__title-text">OpenMapKit</h1>
+                  </div> -->
+                  <!-- <div class="mdl-card__supporting-text">
+                      <p>Manage OpenMapKit surveys.</p>
+                  </div> -->
+                  <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-js-button" href="omk">OpenMapKit</a>
+                  </div>
+              </div>
+              <div class="mdl-card mdl-cell mdl-cell--3-col mdl-shadow--2dp">
+                  <figure class="mdl-card__media">
+                      <img src="images/fp.png" alt="" />
+                  </figure>
+                  <!-- <div class="mdl-card__title">
+                      <h1 class="mdl-card__title-text">Field Papers</h1>
+                  </div> -->
+                  <!-- <div class="mdl-card__supporting-text">
+                      <p>Create and manage Field Papers.</p>
+                  </div> -->
+                  <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-js-button" href="fp">Field Papers</a>
+                  </div>
+              </div>
+              <div class="mdl-card mdl-cell mdl-cell--3-col mdl-shadow--2dp">
+                  <figure class="mdl-card__media">
+                      <img src="images/map.png" alt="" />
+                  </figure>
+                  <!-- <div class="mdl-card__title">
+                      <h1 class="mdl-card__title-text">Map Viewer</h1>
+                  </div> -->
+                  <!-- <div class="mdl-card__supporting-text">
+                      <p>Create and manage Field Papers.</p>
+                  </div> -->
+                  <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-js-button" href="tiles/omk">Map Viewer</a>
+                  </div>
+              </div>
+              <div class="mdl-card mdl-cell mdl-cell--3-col mdl-shadow--2dp">
+                  <figure class="mdl-card__media">
+                      <img src="images/osm.png" alt="" />
+                  </figure>
+                  <!-- <div class="mdl-card__title">
+                      <h1 class="mdl-card__title-text">iD</h1>
+                  </div> -->
+                  <!-- <div class="mdl-card__supporting-text">
+                      <p>iD</p>
+                  </div> -->
+                  <div class="mdl-card__actions mdl-card--border">
+                    <a class="mdl-button mdl-js-button" href="id">Edit OpenStreetMap</a>
+                  </div>
+              </div>
+            </div>
+          </main>
+          <footer class="mdl-mini-footer mdl-layout__footer--scroll">
+            <div class="mdl-mini-footer__left-section">
+              <ul class="mdl-mini-footer__link-list">
+                <li><a href="http://github.com/AmericanRedCross/posm">Code</a></li>
+                <li><a href="http://github.com/AmericanRedCross/posm/blob/master/LICENSE.md">License</a></li>
+                <!-- <li><a href="#">User Agreement</a></li> -->
+              </ul>
+            </div>
+          </footer>
+        </div>
+  </body>
+</html>
