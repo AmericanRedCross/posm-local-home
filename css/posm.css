@@ -1,0 +1,22 @@
+.mdl-grid {
+  max-width: 1000px;
+}
+.mdl-card__media {
+  margin: 0;
+}
+.mdl-card__media > img {
+  max-width: 100%;
+}
+.mdl-mini-footer {
+  background: #efefef;
+  color: #000000;
+  height: 50px;
+}
+.mdl-layout__header {
+  background: #efefef;
+  color: #000;
+}
+.posm_small {
+  height: 30px;
+  margin-right: 15px;
+}
