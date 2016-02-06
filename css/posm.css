@@ -1,3 +1,43 @@
+/* Material Icons */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(assets/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+       local('MaterialIcons-Regular'),
+       url(assets/MaterialIcons-Regular.woff2) format('woff2'),
+       url(assets/MaterialIcons-Regular.woff) format('woff'),
+       url(assets/MaterialIcons-Regular.ttf) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
 .mdl-grid {
   max-width: 1000px;
 }
@@ -21,6 +61,10 @@
   color: #000;
 }
 
+.posm-nav {
+  color: #000 !important;
+}
+
 .posm-container {
   max-width: 1000px;
   width: calc(100% - 16px);
@@ -32,12 +76,12 @@
 }
 
 /* POSM stuff */
-.posm_small {
+.posm-small {
   height: 30px;
   margin-right: 15px;
 }
 
-.posm_workflow {
+.posm-workflow {
   max-width: 100%;
 }
 

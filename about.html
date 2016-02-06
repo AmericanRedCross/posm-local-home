@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="images/android-icon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="images/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png" />
 
   <title>POSM</title>
 
   <link rel="stylesheet" href="css/material.min.css">
   <script src="js/material.min.js"></script>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="css/posm.css">
+
 </head>
+
 <body>
   <div class="mdl-layout mdl-js-layout">
     <header class="mdl-layout__header mdl-layout__header--scroll">
       <div class="mdl-layout__header-row">
-        <img src="images/posm_head.png" class="posm_small"/>
+        <img src="images/posm_head.png" class="posm-small"/>
         <span class="mdl-layout__title">Portable OpenStreetMap</span>
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation -->
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link posm-nav" href="index.html">Home</a>
+          <a class="mdl-navigation__link posm-nav" href="about.html">About</a>
+        </nav>
       </div>
     </header>
     <main class="mdl-layout__content">
@@ -34,7 +41,7 @@
         <p>POSM's goal is to integrate best-of-breed tools from a variety of sources and developers on a single device that can be deployed to the field alongside Red Cross staff and volunteers and facilitate mapping efforts, particularly when internet access is absent.</p>
 
         <div class="mdl-cell--12-col">
-          <img src="images/posm_infographic.png" class="posm_workflow" alt="posm workflow" />
+          <img src="images/posm_infographic.png" class="posm-workflow" alt="posm workflow" />
         </div>
 
         <div class="subpageheader mdl-cell--12-col">Glossary</div>
@@ -61,15 +68,6 @@
 
       </div>
     </main>
-    <footer class="mdl-mini-footer mdl-layout__footer--scroll">
-      <div class="mdl-mini-footer__left-section">
-        <ul class="mdl-mini-footer__link-list">
-          <li><a href="http://github.com/AmericanRedCross/posm">Code</a></li>
-          <li><a href="http://github.com/AmericanRedCross/posm/blob/master/LICENSE.md">License</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-      </div>
-    </footer>
   </div>
 </body>
 </html>
