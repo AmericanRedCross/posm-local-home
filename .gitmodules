@@ -2,3 +2,7 @@
 	path = admin
 	url = https://github.com/AmericanRedCross/posm-admin2
 	branch = dist
+[submodule "openmapkit-website"]
+	path = openmapkit-website
+	url = https://github.com/AmericanRedCross/OpenMapKitWebsite.git
+	branch = dist
