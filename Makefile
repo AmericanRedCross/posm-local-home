@@ -7,7 +7,8 @@ downloads: downloads/OpenMapKit_v1.2.apk downloads/ODKCollect_v1.4.1.apk \
 	downloads/openrefine-win-2.7-rc.2.zip \
 	downloads/openrefine-mac-2.7-rc.2.dmg \
 	downloads/AppLock_2.22.2.apk \
-	downloads/OpenSignal.apk
+	downloads/OpenSignal.apk \
+	downloads/net.osmand-2.6.3.apk
 
 downloads/OpenMapKit_v1.2.apk:
 	curl -sfL https://github.com/AmericanRedCross/OpenMapKitAndroid/releases/download/v1.2/OpenMapKit_v1.2.apk -o $@
@@ -47,5 +48,8 @@ downloads/AppLock_2.22.2.apk:
 
 downloads/OpenSignal.apk:
 	curl -sfL http://d2tquv8x1q6m6a.cloudfront.net/osm_23012012_apiGT10_210_4website.apk -o $@
+
+downloads/net.osmand-2.6.3.apk:
+	curl -sfL http://download.osmand.net/releases/net.osmand-2.6.3.apk -o $@
 
 # TODO Blender, Meshlab, Inkscape
