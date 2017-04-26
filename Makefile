@@ -5,7 +5,8 @@ downloads: downloads/OpenMapKit_v1.2.apk downloads/ODKCollect_v1.4.1.apk \
 	downloads/QGIS-OSGeo4W-2.18.0-1-Setup-x86.exe \
 	downloads/QGIS-OSGeo4W-2.18.0-1-Setup-x86_64.exe \
 	downloads/openrefine-win-2.7-rc.2.zip \
-	downloads/openrefine-mac-2.7-rc.2.dmg
+	downloads/openrefine-mac-2.7-rc.2.dmg \
+	downloads/AppLock_2.22.2.apk
 
 downloads/OpenMapKit_v1.2.apk:
 	curl -sfL https://github.com/AmericanRedCross/OpenMapKitAndroid/releases/download/v1.2/OpenMapKit_v1.2.apk -o $@
@@ -39,5 +40,8 @@ downloads/openrefine-win-2.7-rc.2.zip:
 
 downloads/openrefine-mac-2.7-rc.2.dmg:
 	curl -sfL https://github.com/OpenRefine/OpenRefine/releases/download/2.7-rc.2/openrefine-mac-2.7-rc.2.dmg -o $@
-	
+
+downloads/AppLock_2.22.2.apk:
+	curl -sfL https://posm.s3.amazonaws.com/resources/AppLock_2.22.2.apk -o $@
+
 # TODO Blender, Meshlab, Inkscape
