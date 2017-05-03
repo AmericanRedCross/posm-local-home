@@ -8,5 +8,5 @@
 	branch = dist
 [submodule "posm-gcpi"]
 	path = posm-gcpi
-	url = git@github.com:posm/posm-gcpi.git
+	url = https://github.com/posm/posm-gcpi.git
   branch = dist
